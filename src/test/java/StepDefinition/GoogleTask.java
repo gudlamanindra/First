@@ -10,6 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 	   	WebDriver driver=new ChromeDriver();
 	   	driver.manage().window().maximize();
 	   	System.out.println("user enter the url");
+	   	System.out.println("manindra");
 	   	driver.get("https://www.google.co.in/"); 	
 	   	Thread.sleep(5000);
 	   	driver.findElement(By.xpath("//input[@title='Search']")).sendKeys("exam");
@@ -23,9 +24,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 		  if(text.equals("example")){
 			  driver.findElement(By.xpath("(//ul[@jsname='bw4e9b'])[1]/li["+i+"]")).click();
 			  break;
+			  
 		  }
 	    } 
 	    driver.findElement(By.xpath("(//h3[@class='LC20lb MBeuO DKV0Md'])[5]")).click();
+	    
        } 
      }
 
