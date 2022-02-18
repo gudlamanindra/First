@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-29T20:23:06 IST" name="Suite" finished-at="2021-12-29T20:24:04 IST" duration-ms="57587">
+    <groups>
+    </groups>
+    <test started-at="2021-12-29T20:23:06 IST" name="Test" finished-at="2021-12-29T20:24:04 IST" duration-ms="57587">
+      <class name="Selenium.TestNgDemo">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Selenium.TestNgDemo@2053d869]" started-at="2021-12-29T20:22:21 IST" name="openBrowser" finished-at="2021-12-29T20:23:06 IST" duration-ms="44922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="gmailLoginTestCase()[pri:0, instance:Selenium.TestNgDemo@2053d869]" started-at="2021-12-29T20:23:06 IST" name="gmailLoginTestCase" finished-at="2021-12-29T20:24:04 IST" duration-ms="57470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailLoginTestCase -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Selenium.TestNgDemo@2053d869]" started-at="2021-12-29T20:24:04 IST" name="closeBrowser" finished-at="2021-12-29T20:24:06 IST" duration-ms="1910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Selenium.TestNgDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
