@@ -10,7 +10,7 @@ public class Amazon {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\91756\\Desktop\\new\\CucumberJava\\chromedriver.exe");
 	   	WebDriver driver=new ChromeDriver();
 	   	driver.manage().window().maximize();
-	   	System.out.println("user enter the url");
+	   	System.out.println("enter the url");
 	   	driver.get("https://www.amazon.com/"); 
 	   	Thread.sleep(5000);
 	   	driver.findElement(By.id("twotabsearchtextbox")).sendKeys("ref");
@@ -20,7 +20,7 @@ public class Amazon {
         for(int i=1;i<=l.size();i++) {
         	String text=driver.findElement(By.xpath("//div[@class='autocomplete-results-container']/div["+i+"]")).getText();
         	System.out.println(text);
-        	if(text.equals("refrigerator organizer bins in Home & Kitchen")) {
+        	if(text.equals("refresh eye drops")) {
         		driver.findElement(By.xpath("//div[@class='autocomplete-results-container']/div["+(i+1)+"]")).click();
         		break;
         	}
