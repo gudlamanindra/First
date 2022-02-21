@@ -10,7 +10,7 @@ public class Amazon {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\91756\\Desktop\\new\\CucumberJava\\chromedriver.exe");
 	   	WebDriver driver=new ChromeDriver();
 	   	driver.manage().window().maximize();
-	   	System.out.println("enter the url");
+	   	System.out.println("user enter the url");
 	   	driver.get("https://www.amazon.com/"); 
 	   	Thread.sleep(5000);
 	   	driver.findElement(By.id("twotabsearchtextbox")).sendKeys("ref");
