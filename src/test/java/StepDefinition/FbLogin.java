@@ -10,6 +10,7 @@ public class FbLogin {
 		   driver.manage().window().maximize();
 		   System.out.println("user enter the url");
 		   driver.get("https://www.facebook.com"); 
+		   System.out.println("fb");
 		   Actions a = new Actions(driver);
 		    
 		a.sendKeys(driver.findElement(By.xpath("//input[@type='text']")), "gudlamanindra@gmail.com").build().perform();
