@@ -12,6 +12,7 @@ public class Amazon {
 	   	driver.manage().window().maximize();
 	   	System.out.println("user enter the url");
 	   	driver.get("https://www.amazon.com/"); 
+	   	System.out.println("Manindra");
 	   	Thread.sleep(5000);
 	   	driver.findElement(By.id("twotabsearchtextbox")).sendKeys("ref");
 	   	Thread.sleep(5000);
@@ -20,7 +21,7 @@ public class Amazon {
         for(int i=1;i<=l.size();i++) {
         	String text=driver.findElement(By.xpath("//div[@class='autocomplete-results-container']/div["+i+"]")).getText();
         	System.out.println(text);
-        	if(text.equals("refresh eye drops")) {
+        	if(text.equals("refrigerators")) {
         		driver.findElement(By.xpath("//div[@class='autocomplete-results-container']/div["+(i+1)+"]")).click();
         		break;
         	}
