@@ -21,7 +21,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 		  String text=driver.findElement(By.xpath("(//ul[@jsname='bw4e9b'])[1]/li["+i+"]")).getText(); 
 		  System.out.println(text);
 		  //text=text.split("\n")[0];
-		  if(text.equals("example")){
+		  if(text.equals("exam")){
 			  driver.findElement(By.xpath("(//ul[@jsname='bw4e9b'])[1]/li["+i+"]")).click();
 			  break;
 		  }
