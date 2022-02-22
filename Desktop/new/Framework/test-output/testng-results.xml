@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-01T12:02:08 IST" name="Suite" finished-at="2022-01-01T12:02:28 IST" duration-ms="19491">
+    <groups>
+    </groups>
+    <test started-at="2022-01-01T12:02:08 IST" name="Test" finished-at="2022-01-01T12:02:28 IST" duration-ms="19491">
+      <class name="frame2.FbTest">
+        <test-method is-config="true" signature="beforeTestCaseExecution(java.lang.reflect.Method)[pri:0, instance:frame2.FbTest@3b6ddd1d]" started-at="2022-01-01T12:02:17 IST" name="beforeTestCaseExecution" finished-at="2022-01-01T12:02:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void frame2.FbTest.fbTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCaseExecution -->
+        <test-method signature="fbTest()[pri:0, instance:frame2.FbTest@3b6ddd1d]" started-at="2022-01-01T12:02:17 IST" name="fbTest" finished-at="2022-01-01T12:02:20 IST" duration-ms="2975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fbTest -->
+        <test-method is-config="true" signature="afterTestCaseExecution(org.testng.ITestResult)[pri:0, instance:frame2.FbTest@3b6ddd1d]" started-at="2022-01-01T12:02:20 IST" name="afterTestCaseExecution" finished-at="2022-01-01T12:02:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fbTest status=SUCCESS method=FbTest.fbTest()[pri:0, instance:frame2.FbTest@3b6ddd1d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestCaseExecution -->
+      </class> <!-- frame2.FbTest -->
+      <class name="frame2.InstituteTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:frame2.InstituteTest@2b91004a]" started-at="2022-01-01T12:02:02 IST" name="openBrowser" finished-at="2022-01-01T12:02:08 IST" duration-ms="6537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeTestCaseExecution(java.lang.reflect.Method)[pri:0, instance:frame2.InstituteTest@2b91004a]" started-at="2022-01-01T12:02:08 IST" name="beforeTestCaseExecution" finished-at="2022-01-01T12:02:08 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void frame2.InstituteTest.instituteTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCaseExecution -->
+        <test-method signature="instituteTest()[pri:0, instance:frame2.InstituteTest@2b91004a]" started-at="2022-01-01T12:02:08 IST" name="instituteTest" finished-at="2022-01-01T12:02:17 IST" duration-ms="8590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instituteTest -->
+        <test-method is-config="true" signature="afterTestCaseExecution(org.testng.ITestResult)[pri:0, instance:frame2.InstituteTest@2b91004a]" started-at="2022-01-01T12:02:17 IST" name="afterTestCaseExecution" finished-at="2022-01-01T12:02:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=instituteTest status=SUCCESS method=InstituteTest.instituteTest()[pri:0, instance:frame2.InstituteTest@2b91004a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestCaseExecution -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:frame2.InstituteTest@2b91004a]" started-at="2022-01-01T12:02:28 IST" name="closeBrowser" finished-at="2022-01-01T12:02:28 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- frame2.InstituteTest -->
+      <class name="frame2.GmailTest">
+        <test-method is-config="true" signature="beforeTestCaseExecution(java.lang.reflect.Method)[pri:0, instance:frame2.GmailTest@3f6b0be5]" started-at="2022-01-01T12:02:20 IST" name="beforeTestCaseExecution" finished-at="2022-01-01T12:02:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void frame2.GmailTest.gmailTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCaseExecution -->
+        <test-method signature="gmailTest()[pri:0, instance:frame2.GmailTest@3f6b0be5]" started-at="2022-01-01T12:02:20 IST" name="gmailTest" finished-at="2022-01-01T12:02:28 IST" duration-ms="7821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailTest -->
+        <test-method is-config="true" signature="afterTestCaseExecution(org.testng.ITestResult)[pri:0, instance:frame2.GmailTest@3f6b0be5]" started-at="2022-01-01T12:02:28 IST" name="afterTestCaseExecution" finished-at="2022-01-01T12:02:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=gmailTest status=SUCCESS method=GmailTest.gmailTest()[pri:0, instance:frame2.GmailTest@3f6b0be5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestCaseExecution -->
+      </class> <!-- frame2.GmailTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

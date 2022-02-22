@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="frame2.InstituteTest">
+        <methods>
+          <include name="instituteTest"/>
+          <include name="closeBrowser"/>
+          <include name="beforeTestCaseExecution"/>
+          <include name="afterTestCaseExecution"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- frame2.InstituteTest -->
+      <class name="frame2.GmailTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="gmailTest"/>
+          <include name="beforeTestCaseExecution"/>
+          <include name="afterTestCaseExecution"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- frame2.GmailTest -->
+      <class name="frame2.FbTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="fbTest"/>
+          <include name="beforeTestCaseExecution"/>
+          <include name="afterTestCaseExecution"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- frame2.FbTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
