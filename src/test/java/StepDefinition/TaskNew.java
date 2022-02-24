@@ -22,9 +22,7 @@ public class TaskNew {
         else {
         	System.out.println("False");
         }
-         String s5="S32";
-        int s3=Integer.parseInt(s5.replace("S", ""));
-        System.out.println(s3);
+         
 //		char c=s4.charAt(3);
 //		System.out.println(c);
 //		if(s4.equals("QWERTY")){
