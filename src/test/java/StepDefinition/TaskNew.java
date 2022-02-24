@@ -2,21 +2,21 @@ package StepDefinition;
 public class TaskNew {
 	public static void main(String[] args) {
 		String s4 = "QWERTY";
-		s4= s4.split("R")[1].replace("T","K");
+		s4= s4.split("R")[0].replace("E","K");
         System.out.println(s4);
-        if(s4.equals("KY")) {
+        if(s4.equals("QWK")) {
         	System.out.println("True");
         }
         else {
             System.out.println("False");
         }
-        if(s4.equalsIgnoreCase("ky")) {
+        if(s4.equalsIgnoreCase("qwk")) {
         	System.out.println("True");
         }
         else{
         System.out.println("False");	
         }
-        if(s4.contains("Y")){
+        if(s4.contains("W")){
         	System.out.println("True");
         }
         else {
