@@ -1,8 +1,7 @@
 package StepDefinition;
 public class Task {
-     public static void main(String[] args) {
-		//1.
-		String s4 = "Rs 12,200";
+      public static void main(String[] args) {
+	    String s4 = "Rs 12,200";
         float a =  Float.parseFloat(s4.replace(",", "").substring(3));
         System.out.println(a);
         String s6 = "$ 70.20";
