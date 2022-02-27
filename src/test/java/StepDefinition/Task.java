@@ -4,6 +4,8 @@ public class Task {
 	    String s4 = "Rs 12,200";
         float a =  Float.parseFloat(s4.replace(",", "").substring(3));
         System.out.println(a);
+        
+        //sss
         String s6 = "$ 70.20";
         float b = Float.parseFloat(s6.substring(2)); 
         System.out.println("s4*dollarprice");
