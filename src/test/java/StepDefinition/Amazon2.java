@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 	   	driver.manage().window().maximize();
 	   	System.out.println("user enter the url");
 	   	driver.get("https://www.amazon.com/"); 
-	   	Thread.sleep(5000);
+	   	Thread.sleep(6000);
 	   	driver.findElement(By.id("twotabsearchtextbox")).sendKeys("lig");
      	Thread.sleep(5000);
 	   	List<WebElement> l = driver.findElements(By.xpath("//div[@class='autocomplete-results-container']/div")); 
