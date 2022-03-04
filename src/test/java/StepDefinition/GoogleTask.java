@@ -10,7 +10,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 	   	WebDriver driver=new ChromeDriver();
 	   	driver.manage().window().maximize();
 	   	System.out.println("user enter the url");
-	   	
 	   	driver.get("https://www.google.co.in/"); 	
 	   	Thread.sleep(5000);
 	   	driver.findElement(By.xpath("//input[@title='Search']")).sendKeys("exam");
