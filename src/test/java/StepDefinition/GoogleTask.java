@@ -19,13 +19,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 	    for(int i=1;i<=l.size();i++) {
 		  String text=driver.findElement(By.xpath("(//ul[@jsname='bw4e9b'])[1]/li["+i+"]")).getText(); 
 		  System.out.println(text);
-		  if(text.equals("exam")){
-			  driver.findElement(By.xpath("(//ul[@jsname='bw4e9b'])[1]/li["+i+"]")).click();
-			  break;
-		  }
+		  if(text.equals("Examity")) {
+      		driver.findElement(By.xpath("(//ul[@jsname='bw4e9b'])[1]/li["+i+"]")).click();
+      		break;
+      	  }
 	    } 
-	    driver.findElement(By.xpath("(//h3[@class='LC20lb MBeuO DKV0Md'])[5]")).click();
-       } 
+	    Thread.sleep(15000);
+	    driver.close();
+        } 
      }
      
 
