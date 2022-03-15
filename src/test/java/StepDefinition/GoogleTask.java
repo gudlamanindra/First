@@ -19,7 +19,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 	    for(int i=1;i<=l.size();i++) {
 		  String text=driver.findElement(By.xpath("(//ul[@jsname='bw4e9b'])[1]/li["+i+"]")).getText(); 
 		  System.out.println(text);
-		  if(text.equals("example pdf")) {
+		  if(text.equals("exam results")) {
       		driver.findElement(By.xpath("(//ul[@jsname='bw4e9b'])[1]/li["+i+"]")).click();
       		break;
       	  }
