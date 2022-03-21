@@ -10,6 +10,7 @@ public class Yahoo {
 	   	WebDriver driver=new ChromeDriver();
 	   	driver.manage().window().maximize();
 	   	System.out.println("user enter the url");
+	   	System.out.println("na");
 	   	driver.get("https://www.yahoo.com/"); 
 	   	Thread.sleep(5000);
 	   	driver.findElement(By.xpath("//input[@type='text']")).sendKeys("mani");
