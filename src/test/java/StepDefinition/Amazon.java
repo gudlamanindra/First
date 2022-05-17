@@ -18,11 +18,11 @@ public class Amazon {
 	   	Thread.sleep(5000);
 	   	List<WebElement> l = driver.findElements(By.xpath("//div[@class='autocomplete-results-container']/div")); 
         System.out.println(l.size());
-        for(int i=1;i<=l.size();i++) {
-        	String text=driver.findElement(By.xpath("//div[@class='autocomplete-results-container']/div["+i+"]")).getText();
+        for(int i=1;i<l.size();i++) {
+        	String text=l.get(i).getText();
         	System.out.println(text);
         	if(text.equals("refrigerators")) {
-        		driver.findElement(By.xpath("//div[@class='autocomplete-results-container']/div["+(i+1)+"]")).click();
+        		l.get(i).click();
         		break;
         	}
         }

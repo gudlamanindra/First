@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 public class FbLogin {
      public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\91756\\Desktop\\new\\CucumberJava\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\91756\\Desktop\\git file\\First\\chromedriver.exe");
 		   WebDriver driver=new ChromeDriver();
 		   driver.manage().window().maximize();
 		   System.out.println("user enter the url");
