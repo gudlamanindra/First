@@ -24,6 +24,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
         		break;
         	}
         }
+        System.out.println();
 	Thread.sleep(5000);
 	driver.close();
 	}
